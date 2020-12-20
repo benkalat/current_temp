@@ -1,4 +1,4 @@
-# current_temp
+# current_temperature
 Get the current temperature according to coordinates or place name
 To clone use these command
 
