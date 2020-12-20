@@ -7,10 +7,11 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
-        api1 t1 = new api1(args[0]);
-        t1.start();
-        api2 t2 = new api2(args[0]);
-        t2.start();
+
+        openweathermap thread_openweathermap = new openweathermap(args[0]);
+        thread_openweathermap.start();
+        community_open_weather_map thread_community_open_weather_map = new community_open_weather_map(args[0]);
+        thread_community_open_weather_map.start();
 
     }
 }

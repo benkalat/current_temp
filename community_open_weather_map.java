@@ -1,7 +1,7 @@
 
-public class api2 extends Thread {
+public class community_open_weather_map extends Thread {
     public  String location ;
-    public api2(String location) {
+    public community_open_weather_map(String location) {
         this.location = location;
     }
 
@@ -9,7 +9,7 @@ public class api2 extends Thread {
         try {
             weather temp_api=new weather_child();
             String temp =  temp_api.get_temperature(location);
-            System.out.println("temperature by second api : "+temp);
+            System.out.println("temperature by  community_open_weather_map api : "+temp);
         } catch(Exception e) {
 //            listener.notifyThatDarnedExceptionHappened(...);
         }
