@@ -15,6 +15,7 @@ To get temperature use this command
 java -cp json-20200518.jar;json-simple-2.1.2.jar;.Main <city name / coordinates>
  
 exemple:
+
 java -cp json-20200518.jar;json-simple-2.1.2.jar;. Main haifa
 
 
