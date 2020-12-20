@@ -3,6 +3,7 @@ Get the current temperature according to coordinates or place name
 To clone use this command
 
 git clone https://github.com/benkalat/current_temp.git
+
 cd current_temp
 
 To compile use this command
