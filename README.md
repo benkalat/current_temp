@@ -1,8 +1,9 @@
 # current_temp
 Get the current temperature according to coordinates or place name
-To clone use this command
+To clone use these command
 
-git clone https://github.com/benkalat/current_temp.git\n
+git clone https://github.com/benkalat/current_temp.git
+
 cd current_temp
 
 To compile use this command
@@ -13,7 +14,7 @@ To get temperature use this command
 
 java -cp json-20200518.jar;json-simple-2.1.2.jar;.Main <city name / coordinates>
  
-exemple:\n
+exemple:
 java -cp json-20200518.jar;json-simple-2.1.2.jar;. Main haifa
 
 
