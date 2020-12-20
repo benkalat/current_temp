@@ -1,6 +1,6 @@
 
 import org.json.JSONObject;
-//
+
 public class weather_child extends weather {
 
     public  String get_temperature_coor(float lat, float lon) throws Exception{
