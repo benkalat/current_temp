@@ -22,7 +22,9 @@ public class weatherByCommunityOpenWeatherMap implements  weather{
             public void run() {
                 try {
                     String temp =  getTemperature(coordinates);
-                    System.out.println("temperature by CommunityOpenWeatherMap api : "+temp);
+                    
+                    System.out.println("temperature from community-open-weather-map api : "+temp);
+
                 } catch(Exception e) {
 
                 }
