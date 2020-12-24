@@ -18,9 +18,8 @@ public class weatherByOpenwetherMap implements weather {
             public void run() {
                 try {
                     String temp =  getTemperature(coordinates);
-
-
-                    System.out.println("temperature from openweathermap api : "+temp);
+                  
+                    System.out.println("temperature by openweathermap api : "+temp);
 
                 } catch(Exception e) {
 

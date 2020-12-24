@@ -12,9 +12,17 @@ public class Main {
 
         weatherByCommunityOpenWeatherMap  temperature1= new weatherByCommunityOpenWeatherMap();
         temperature1.runThread(coordinates);
+        weatherByOpenwetherMap temperature2 = new weatherByOpenwetherMap();
+        temperature2.runThread(coordinates);
+
+
+
+        weatherByCommunityOpenWeatherMap  temperature1= new weatherByCommunityOpenWeatherMap();
+        temperature1.runThread(coordinates);
 
         weatherByOpenwetherMap temperature2 = new weatherByOpenwetherMap();
         temperature2.runThread(coordinates);
+
 
 
     }
