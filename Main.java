@@ -6,12 +6,16 @@ public class Main {
 
 
     public static void main(String[] args) throws Exception{
+        location loc = new location();
+        float[] coordinates = loc.get_coordinates(args[0]);
+        System.out.println("coordinates :"+coordinates[0]+coordinates[1]);
 
+        weatherByCommunityOpenWeatherMap  temperature1= new weatherByCommunityOpenWeatherMap();
+        temperature1.runThread(coordinates);
 
-        openweathermap thread_openweathermap = new openweathermap(args[0]);
-        thread_openweathermap.start();
-        community_open_weather_map thread_community_open_weather_map = new community_open_weather_map(args[0]);
-        thread_community_open_weather_map.start();
+        weatherByOpenwetherMap temperature2 = new weatherByOpenwetherMap();
+        temperature2.runThread(coordinates);
+
 
     }
 }
